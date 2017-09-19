@@ -1,4 +1,4 @@
-#P1. WAP to print right angled triangle using asterisks and print function.
+#P1. WAP to print right angled triangle using asterisks and print function
 def rtTriangle():
     '''
     objective : to print right triangle
