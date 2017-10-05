@@ -1,11 +1,13 @@
 #P4. WAP to print isosceles triangle using any character as user input.
 def pyramid(symbol):
     '''
-    objective : to print pyramid
-    input parameters : 
-        symbol : user entered symbol for printing pyramid
-    approach: using print function to print strings of user entered symbol
+    Objective : To print pyramid
+    Input Parameters : 
+        symbol : User entered symbol for printing pyramid
+    Return Value : None
     '''
+    #approach: using print function to print strings of user entered symbol
+    
     print("     ",symbol)
     print("    ",symbol,symbol)
     print("   ",symbol,symbol,symbol)
@@ -14,11 +16,11 @@ def pyramid(symbol):
 	
 def main():
     '''
-    objective : to print pyramid
-    user input: 
-        symbol : user entered symbol for printing pyramid
-    approach: to use pyramid function
+    Objective : To print pyramid
+    User Inputs : 
+        symbol : User entered symbol for printing pyramid
     '''
+    #approach: To use pyramid function
     symbol = input('Enter Symbol : ')
     pyramid(symbol)
     print('Main Ends..!')
