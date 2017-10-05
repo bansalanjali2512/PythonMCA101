@@ -1,5 +1,5 @@
 #P5. WAP to compute & print percentage taking max marks and obtained marks as user inputs.
-def cal_percentage(obtained_marks,max_marks):
+def calPercentage(obtained_marks,max_marks):
     '''
     objective : to calculate percentage of a student
     input paramtrs :
@@ -23,7 +23,7 @@ def main():
     max_marks = float(input('Enter the maximum marks of the exam : '))
     print('Obtained Marks : ',obtained_marks)
     print('Maximum marks  : ',max_marks)
-    print('The percentage obtained by the student is : ',cal_percentage(obtained_marks,max_marks),'%')
+    print('The percentage obtained by the student is : ',caLPercentage(obtained_marks,max_marks),'%')
     
 if __name__=='__main__':
     main()
