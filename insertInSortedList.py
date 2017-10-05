@@ -34,5 +34,6 @@ def main():
     print("List After Insertion Is : ")
     print(insertInSortedList(list1,element))
     
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
+    print('Program Ends..!')
