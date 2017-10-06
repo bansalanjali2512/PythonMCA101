@@ -1,24 +1,26 @@
 #P3. WAP to print area of triangle taking base & height of triangle as user inputs.
 def areaTriangle(base, height):
     '''
-    objective : to compute the area of a triangle
-    input parameters:
-        base: base of triangle
-        height: height of triangle
-    approach: multiply 0.5 and base and height
+    Objective : To compute the area of a triangle
+    Input Parameters :
+        base: Base of triangle
+        height: Height of triangle
     return: area of triangle
     '''
+    #approach: multiply 0.5 and base and height
+    
     area = 0.5*base*height
     return area
 
 def main():
     '''
-    objective : to compute the area of a triangle
-    user inputs:
-        base: base of triangle
-        height: height of triangle
-    approach: use function areaTriangle
+    Objective : to compute the area of a triangle
+    User Inputs :
+        base: Base of triangle
+        height: Height of triangle
     '''
+    #approach: use function areaTriangle
+    
     base = int(input('Enter base of Triangle: '))
     height = int(input('Enter Height of Triangle: '))
     print('base of Triangle: ', base)
@@ -28,4 +30,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-print('End of Program')
+    print('Program Ends..!')
