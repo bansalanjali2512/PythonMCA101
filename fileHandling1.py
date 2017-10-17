@@ -1,3 +1,5 @@
+#Program to update marks with user entered percentage from student.txt to studentm.txt
+
 def computeModeratedMarks(file1, file2, addPercent):
   '''
   Objective: To compute moderated marks of students
