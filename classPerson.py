@@ -92,5 +92,6 @@ class Person:
         self (implicit parameter) – object of type Person 
         Return Value: None 
         ''' 
-        print('Deleted !!') 
+        #approach: decrement the class variable count 
+        print('Deleted..!') 
         Person.count -= 1
