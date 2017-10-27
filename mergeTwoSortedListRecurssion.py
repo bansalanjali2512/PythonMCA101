@@ -11,11 +11,11 @@ def mergeSortedLists(list1,list2,index1=0,index2=0):
     '''
     #approach: Using recurssion
 
-    if (index1==(len(list1)-1) and index2==(len(list1)-1)):
+    if (index1==(len(list1)) and index2==(len(list2))):
         return mergedList      
-    elif ((index1!=len(list1) and index2==(len(list1)-1)) or (list1[index1] <= list2[index2])):
+    elif ((index1!=len(list1) and index2==(len(list2))) or (list1[index1] <= list2[index2])):
         mergedList.append(list1[index1])
         return mergeSortedLists(list1,list2,index1+1,index2)
-    elif ((index1==(len(list1)-1) and index2!=len(list1)) or (list1[index1] > list2[index2])):
+    elif ((index1==(len(list1)) and index2!=len(list2)) or (list1[index1] > list2[index2])):
         mergedList.append(list2[index2])
         return mergeSortedLists(list1,list2,index1,index2+1)
